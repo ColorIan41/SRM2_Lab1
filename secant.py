@@ -16,5 +16,6 @@ def secant(func, x0, x1, tol):
 
 root1 = secant(f, -0.9999, -0.45, 0.001)
 root2 = secant(f, 1.099, 1.45, 0.001)
+print("Метод хорд:")
 print(root1)
 print(root2)

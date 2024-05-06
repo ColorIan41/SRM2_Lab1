@@ -26,5 +26,6 @@ def newton(func, d_func, x0, tol):
 
 root1 = newton(f, df, -0.9999, 0.01)
 root2 = newton(f, df, 1.099, 0.01)
+print("Метод Ньютона:")
 print(root1)
 print(root2)

@@ -18,5 +18,6 @@ def bisection(func, a, b, tol):  ##tol-tolerance
 
 root1 = bisection(f, -0.9999, -0.45, 0.1)
 root2 = bisection(f, 1.099, 1.45, 0.1)
+print("Метод половинного ділення:")
 print(root1)
 print(root2)

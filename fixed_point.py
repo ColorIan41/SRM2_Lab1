@@ -16,5 +16,6 @@ def fixed_point(func, x0, tol):
 
 root1 = fixed_point(f, -0.9999, 0.01)
 root2 = fixed_point(f, 1.099, 0.01)
+print("Метод простої ітерації:")
 print(root1)
 print(root2)
